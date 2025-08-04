@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+body {
+    font-family: Press Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    background-image: linear-gradient(90deg, rgb(255, 57, 8) 10%, rgb(104, 35, 3) 95%);
+    color: black;
+}

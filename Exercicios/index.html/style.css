@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    background-color: lightgoldenrodyellow;
+    color: chocolate;
+    font-size:  12pt;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: brown;
+}
+
+p {
+    color: rgb(0, 171, 169);
+    text-decoration: none;
+}

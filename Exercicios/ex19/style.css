@@ -1,0 +1,25 @@
+
+
+
+:root {
+    --cor1:rgb(30, 53, 131);
+    --cor2:rgb(85, 141, 85);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+header {
+    background-color: var(--cor2);
+    
+}
+
+header > h1 {
+    color: var(--cor1);
+}
