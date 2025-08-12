@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100dvh;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.711), rgb(7, 7, 7, 0.451)), url(img/reflexao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.header {
+    text-align: center;
+    width: 100%;
+    min-width: 600px;
+    height: 120px;
+    background-position: top center;
+    background-color: rgba(12, 11, 11, 0);
+    position: absolute;
+
+    top: 0%;
+    left: 0%;
+}
+
+div h1 {
+    color: rgb(236, 238, 236);
+    
+
+}
+
+.bar {
+   text-align: center;
+   line-height: 60px;
+}
+
+/*#container {
+width: 100%;
+max-width: 10px;
+background-color: transparent;
+border: 2px solid rgba(255, 255, 255, 0.603);
+border-radius: 50px;
+padding:10px;
+backdrop-filter: blur(0px);
+overflow: hidden;
+transition: backdrop-filter 0.5s;
+}
+
+#container:hover {
+    backdrop-filter: blur(10px);
+}*/
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    border-radius: 50px;
+    padding: 35px;
+    backdrop-filter: blur(0px);
+    overflow: hidden;
+    transition: backdrop-filter 0.5s;
+}
+
+.text {
+    color: white;
+    position: relative;
+    top:200px;
+    transition: top 1s;
+}
+
+.container:hover .text {
+    top: 0;
+}
+
+.container:hover{
+   backdrop-filter: blur(10px);
+}
