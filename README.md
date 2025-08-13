@@ -4,6 +4,8 @@
 
 <a href="https://chaosann.github.io/html-css/d10/android.html">Historia do android </a>
 
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
+
 <h1 align="center"> Projeto efeito vidro </h1>
 
 <a href="https://chaosann.github.io/html-css/Exbbb/100-exercicios-html-css-main/Exercicio -01
