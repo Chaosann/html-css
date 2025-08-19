@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    
+    color: white;
+    
+
+background-color: black;
+
+}
+
+div.header {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    min-width: 300px;
+    height: 200px;
+    background-position: top center;
+    position: absolute;
+
+    top: 0%;
+    left: 0%;
+
+    background-color: rgb(0, 0, 0);
+}
+
+div h1 {
+    color: rgb(236, 238, 236);
+    font-size: 5em;
+    font-family: "Sriracha", "Sriracha Regular", "Sriracha Bold", "Sriracha Italic", sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding-top: 40px;
+
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603) ;
+}
+
+div a {
+    color: white;
+    font-size: 1em;
+    font-family: "Sriracha", "Sriracha Regular", "Sriracha Bold", "Sriracha Italic", sans-serif;
+    text-decoration: none;
+
+}
+
+div a > strong:hover {
+    text-decoration: underline;
+}
+
+div.caixa1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 100%dvh;
+    height: 900px;
+    min-height: 500px;
+    margin: auto;
+
+
+    background-color: rgb(255, 255, 255);
+}
+
+div.texto1 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: "Sriracha Regular", "Sriracha Bold", "Sriracha Italic", sans-serif;
+    text-align: left center;
+    text-wrap: initial;
+
+    padding-left: 30px;
+}
