@@ -12,5 +12,5 @@
 
 <h1 align="center"> Projeto Cordel</h1>
 
-<a href="Exercicios/EX12/">Cordel Moderno</a>
+<a href="Exercicios/EX12/index.html" target="blank">Cordel Moderno</a>
 
