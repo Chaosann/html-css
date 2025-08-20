@@ -33,7 +33,7 @@ body{
     padding: 5px 3px;
     flex-direction: column;
     position: relative;
-    height: 670px;
+    min-height: 700px;
     margin-top: 80px;
  }
 
@@ -79,8 +79,14 @@ header h1 {
     font-weight: 300;
 }
 
-section.botoes-links {
+section {
     display: flex;
+    justify-content: center;
+    
+    
+}
+section.botoes-links {
+    /*display: flex;*/
     flex-direction: column;
     gap: 20px;
 }
