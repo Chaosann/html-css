@@ -1,36 +1,45 @@
 
+@keyframes girar{
+    form {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);;
+    }
+}
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: black;
+    background: black;
     color: white;
     display: flex;
     margin: auto;
-    
+    background-size: 600% 600%;    
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background: transparent;
     width: 100vw;
     height: 60px;
     margin: auto;
     margin-bottom:40px;
-
     position: fixed;
 }
 
 div.logo {
    position: absolute;
-   top: 15px; 
-   left: 30px;
+   top: 10px; 
+   left: 20px;
 }
 
 .loge{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
 }
 
@@ -44,7 +53,6 @@ div.box {
     top: 10px;
     left: 100px;
 
-    transition: 0.3s;
 }
 div.home {
     position: absolute;
@@ -54,12 +62,12 @@ div.home {
 }
 
 div.box:hover {
-    background-color:rgba(66, 66, 66, 0.562);
-    box-shadow: 0px 0px 10px 4px rgba(66, 66, 66, 0.562);
-    transform: scale(1.1);
+    background-color:rgb(66, 66, 66);
+    box-shadow: 0px 0px 6px 4px rgba(66, 66, 66, 0.562);
+    transform: scale(1.05);
 }
 
-img {
+img.homa {
     width: 26px;
     height: 26px;
 }
@@ -113,6 +121,7 @@ img {
   color: #555;
   border: none;
   padding: 0px 10px;
+  padding-right: 5px;
   outline: none;
   width: 100%;
   font-size: 1.5rem;
@@ -123,7 +132,8 @@ img {
 
 }
 
-.campo-input:focus { color: #ffffff}
+.campo-input:focus { 
+    color: #ffffff}
 
 .btn-busca { 
 
@@ -148,11 +158,9 @@ img {
 
 .search {
     position: absolute;
-    top: 12px;
-    left: 20px;
+    top: 8px;
+    left: 16px;
 }
-
-
 
 section {
     display: flex;
@@ -163,15 +171,23 @@ section {
 }
 
 .content {
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(12, 12, 12);
+    background-size: 600% 600%;
     width: 90vw;
     height: 88vh;
     overflow: auto;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     border-radius: 10px;
+    border: 2px solid rgb(32, 32, 32);
     position: fixed;
     top: 11vh;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
     
 }
 
@@ -196,19 +212,81 @@ section {
     background: rgb(112, 110, 110);
 }
 
+
+.content h1 {
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    margin-bottom: 10px;
+    
+    position: relative;
+    top: 25px;
+    left: 40px;
+    
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.74);
+    font-size: 2.5rem;
+}
+
 .conteiner {
-   display: inline-block;
-   
-   
+    padding-right: 15px;
 }
 
 .player {
-    background-color: rgb(89, 89, 90);
-    width: 15vw;
-    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 0px;
     gap: 10px;
-    margin: 30px;
+    border-radius: 30px;
+
+    width: 200px;
+    height: 230px;
     
+    transition: 0.4s;
+}
+
+.player:hover {
+    cursor: pointer;
+    background-image: linear-gradient(360deg, rgba(66,66,66,0.562), transparent);
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.651, 0.651);
+    
+    
+}
+
+.player:hover .bord {
+    animation: girar 10s linear infinite;
+}
+
+img.bord {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.137);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+div.text {
+    display: flex;
+    justify-content: center;
+    align-self:flex-end;
+    flex-direction: column;
+    margin: 0;
+    
+
+    position: relative;
+    top: -20px;
+}
+
+.text p {
+    color: rgb(44, 44, 44);
+}
+
+.player:hover .text p {
+    color:#706f6f;
 }
 
 main{
