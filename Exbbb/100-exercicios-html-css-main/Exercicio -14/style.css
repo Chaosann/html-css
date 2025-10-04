@@ -23,7 +23,7 @@ body{
     color: #fff;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animate 1.5s linear infinite;
+    animation: animate 4s linear infinite;
     display: inline-block;
     margin: 0;
     font-size: 100px;
