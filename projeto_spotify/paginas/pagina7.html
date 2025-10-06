@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Som Do Cerrado</title>
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="favicon">
+    <link rel="stylesheet" href="../estilo/estilo-pag/pag7-style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="#">
+                <img class="loge" src="../imagens/logo.png" alt="logo">
+            </a></div>
+        <div class="box">
+            <div class="home"><a href="../index.html"><img class="homa" src="../imagens/home-agreement.png"
+                        alt="home"></a></a></div>
+        </div>
+        <div class="box1">
+            <form action="#" method="" class="box">
+                <label class="campo-label" data-text="">
+                    <input type="text" class="campo-input" placeholder="O que você quer ouvir?">
+                    <button class="btn-busca" type="submit" value="10px"><img class="search" class="search"
+                            src="../imagens/icon-search.ico" alt="icon-search"></button>
+                    </button>
+
+                </label>
+        </div>
+        </form>
+    </header>
+
+    <main>
+        <section>
+            <di class="content">
+
+                <div class="caixa" id="imgg">
+                    <div class="conteudo">
+                        <h1>Ney Matogrosso</h1>
+                    </div>
+                </div>
+                <div class="degrad"></div>
+
+                <div class="bx">
+                    <div class="inf">
+                        <img src="../imagens/Ney-Mato/neY1.jpg" alt="Balada Do Louco">
+                        <p>Balada Do Louco</p>
+                    </div>
+                    <audio controls>
+                        <source src="../musicas/Ney/Iframe Ney Matogrosso - Balada Do Louco (Ao Vivo) [yu90Ha1Woiw].mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="bx">
+                    <div class="inf">
+                        <img src="../imagens/Ney-Mato/neY1.jpg" alt="Homem Com H">
+                        <p>Homem Com H</p>
+                    </div>
+                    <audio controls>
+                        <source src="../musicas/Ney/Iframe Ney Matogrosso - Homem Com H [BWlBbCRPBMg].mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="bx">
+                    <div class="inf">
+                        <img src="../imagens/Ney-Mato/neY3.jpg" alt="Metamorfose Ambulante">
+                        <p>Metamorfose Ambulante</p>
+                    </div>
+                    <audio controls>
+                        <source src="../musicas/Ney/Iframe Ney Matogrosso - Metamorfose Ambulante (Ao Vivo) [6byTkj90ZLI].mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="bx">
+                    <div class="inf">
+                        <img src="../imagens/Ney-Mato/neY3.jpg" alt="Poema">
+                        <p>Poema</p>
+                    </div>
+                    <audio controls>
+                        <source src="../musicas/Ney/Iframe Ney Matogrosso - Poema (Ao Vivo) [L2bINZ0G_yI].mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="bx">
+                    <div class="inf">
+                        <img src="../imagens/Ney-Mato/neY2.jpg" alt="Sangue Latino">
+                        <p>Sangue Latino</p>
+                    </div>
+                    <audio controls>
+                        <source src="../musicas/Ney/Iframe Ney Matogrosso - Sangue Latino (Ao Vivo) [ygUuXtg98zA].mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="bx">
+                    <div class="inf">
+                        <img src="../imagens/Ney-Mato/neY2.jpg" alt="Yolanda">
+                        <p>Yolanda</p>
+                    </div>
+                    <audio controls>
+                        <source src="../musicas/Ney/Iframe Ney Matogrosso - Yolanda (DVD Bloco na Rua) [Vídeo Oficial] [YO3RW38tf94].mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                <div class="linha"></div>
+                <div class="footer">
+                    <h4 class="tx1">Licença MIT</h4>
+                    <h4 class="tx2">Desenvolvedores</h4>
+                    <h4 class="tx3">
+                        <div>Thallyson</div>
+                        <div>Lucas</div>
+                        <div>Thommas</div>
+                        <div>Kevyn</div>
+                        <div>Emilyne</div>
+                    </h4>
+                </div>
+
+                </div>
+
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script type="text/javascript">
+
+        const campoLabel = document.querySelector(".campo-label"),
+
+            textInput = document.querySelector("input[type='text']");
+
+        textInput.addEventListener("keyup", event => {
+            campoLabel.setAttribute("data-text", event.target.value);
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
